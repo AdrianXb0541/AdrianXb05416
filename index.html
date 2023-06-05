@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es-mx">
+<head>
+    <meta charset="UTF-8">
+    <title>Adrian XB</title>
+    <link rel="stylesheet" href="css/problemaStem.css"/>
+
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
+    <script src="js/calcularStem.js"></script>
+</head>
+<body>
+  <section class="wrapper">
+    <header>
+      
+      
+    </header>
+    <section id="contenedor">
+      <section  class="problema">
+        <h2>Problema: velocidad lineal del movimiento orbital
+        de la Tierra</h2>
+        <p>Descripción:</p>
+        <p>La velocidad lineal del movimiento orbital de la Tierra se refiere a la velocidad a la que la Tierra se desplaza alrededor del Sol en su órbita. <br>
+        </p>
+      </section>
+      <section  class="esquemaProblema">
+        <h2>Esquema</h2>
+        <center>
+        <img class="imgProblema" src="images/esque.jpg">
+        </center>
+      </section>
+      <section class="formulas">
+        <h2>Fórmulas</h2>
+        v = sqrt(G * Ms / r)
+      </section>
+      <section class="datos">
+        <h2>Datos:</h2>
+          G = 6.67430e-11<br>
+          Ms = 1.989e30 <br>
+          r = 1.5e11<br>
+      </section>
+      <section class="calculos">
+        <h2>Solución</h2>
+        <p>La velocidad lineal del movimiento orbital de la Tierra se calcula utilizando la fórmula v = sqrt(G * Ms / r), donde G es la constante de gravitación universal, Ms es la masa del Sol y r es la distancia promedio entre la Tierra y el Sol. El resultado es una medida de la velocidad a la que la Tierra se mueve alrededor del Sol en su órbita circular.</p>
+        <button onclick="calcularVelocidadOrbital();">Presiona para calcular</button>
+      </section>
+      <section class="resultado">
+        <h2>Resultado:</h2>
+        <div id="resultadoA"></div>
+      </section>
+    </section>
+    <footer class="pie">
+     Terrones Escobar Carlos Adrian 21091108
+    </footer>
+  </section>
+</body>
+</html>
